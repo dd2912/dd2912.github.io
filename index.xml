@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Dave Dirnfeld</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Home on Dave Dirnfeld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Sep 2021 18:20:26 +1000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Sun, 12 Sep 2021 18:24:17 +1000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Coming Soon </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Sun, 26 Dec 2021 16:53:13 -0500</pubDate>
+      
+      <guid>http://example.org/contact/</guid>
+      <description>Coming Soon </description>
+    </item>
+    
+  </channel>
+</rss>
