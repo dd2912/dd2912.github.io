@@ -13,11 +13,11 @@
       <pubDate>Sun, 12 Sep 2021 18:24:17 +1000</pubDate>
       
       <guid>https://dd2912.github.io/about/</guid>
-      <description>Coming Soon </description>
+      <description>I am s Ph.D. student at the University of Massachusetts Amherst - Manning College of Information &amp;amp; Computer Sciences with interests in Computer Vision and AI. I work with Prof. Erik Learned-Miller in the Computer Vision Lab, where we investigate camera pose estimation and object segmentation.</description>
     </item>
     
     <item>
-      <title>Contact Me</title>
+      <title>Contact</title>
       <link>https://dd2912.github.io/contact/</link>
       <pubDate>Sun, 26 Dec 2021 16:53:13 -0500</pubDate>
       
@@ -26,12 +26,21 @@
     </item>
     
     <item>
+      <title>Gallery</title>
+      <link>https://dd2912.github.io/gallery/</link>
+      <pubDate>Sun, 22 Jan 2023 20:35:24 -0500</pubDate>
+      
+      <guid>https://dd2912.github.io/gallery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Thank You</title>
       <link>https://dd2912.github.io/thankyou/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dd2912.github.io/thankyou/</guid>
-      <description>Sweet, you email has been recored. </description>
+      <description>Sweet, your email has been recorded. </description>
     </item>
     
   </channel>
