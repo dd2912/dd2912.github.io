@@ -169,7 +169,7 @@ body {
 
 .img-box {
     overflow: hidden;
-    border-radius: .25rem!important
+    border-radius: .25rem!important;
 }
 
 .img-box:hover {
@@ -177,7 +177,7 @@ body {
 }
 
 .image-grid {
-    opacity: 0.7;
+    /* opacity: 0.7; */
     height: 100%;
     width: 100%;
     transition: transform .35s,-webkit-transform .35s;
@@ -185,6 +185,7 @@ body {
     -moz-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
+    filter: grayscale(70%);
 }
 
 .image-grid:hover {
@@ -193,4 +194,112 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    filter: none;
+}
+
+.content-body {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0;
+}
+
+.article-content{
+    padding: 1em;
+}
+
+.article-content h1, .article-content h2, .article-content h3, .article-content h4, .article-content h5, .article-content h6 {
+    /* margin-left: -1em;
+    padding-left: 1em; */
+    border-left: #575757 5px solid;
+    padding: 5px;
+}
+
+/*
+Table og Content
+*/
+.toc {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0rem;
+    z-index: 2;
+    height: calc(100vh - 30rem);
+    overflow-y: auto;
+    background-color: #F8F8F8;
+    border: 1px solid #ced4da;
+    padding: 1em;
+}
+
+.counter-block::before {
+    border-color: #11d6f0 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #11d6f0;
+    left: 0;
+    top: 0;
+}
+
+.counter-block::after {
+    border-color: rgba(0, 0, 0, 0) #11d6f0 #11d6f0 rgba(0, 0, 0, 0);
+    bottom: 0;
+    right: 0;
+}
+
+.toc ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.toc ul ul {
+    padding-left: 1rem;
+    margin-top: 0.25rem;
+}
+
+.toc nav a:not(:hover) {
+    text-decoration: none;
+}
+
+.toc nav a {
+    color: inherit;
+}
+
+
+
+/**
+btn overwrite
+*/
+.btn-outline-primary {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    background-color: #fff;
+    padding: 2px 20px;
+    line-height: 23px;
+    border: 2px solid #007CED;
+    border-radius: 30px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007CED;
+    color: #fff;
+}
+
+*, .link-secondary {
+    color: #252525;
+}
+
+footer small{
+    color: #ced4da;
+}
+
+.authors {
+    font-size: 1erm;
+    font-weight: 300;
+}
+
+
+.links-icons {
+    padding-right: 5px;
+    color: #666;
+}
+
+.btn-outline-primary:hover .links-icons {
+    color: #fff;
 }
